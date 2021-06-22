@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="WorkspaceOne" Database="" Version="10000">
+  <Project Name="ProjectTemplate" Path="ProjectTemplate/ProjectTemplate.project" Active="No"/>
+  <Project Name="ProjectTwo" Path="ProjectTwo/ProjectTwo.project" Active="No"/>
+  <Project Name="Section8" Path="Section8/Section8.project" Active="No"/>
+  <Project Name="file_input" Path="file/file.project" Active="No"/>
+  <Project Name="file_output" Path="file_output/file_output.project" Active="No"/>
+  <Project Name="sense" Path="sense/sense.project" Active="No"/>
+  <Project Name="gaussian_class" Path="gaussian_class/gaussian_class.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ProjectTemplate" ConfigName="Debug"/>
+      <Project Name="ProjectTwo" ConfigName="Debug"/>
+      <Project Name="Section8" ConfigName="Debug"/>
+      <Project Name="file_input" ConfigName="Debug"/>
+      <Project Name="file_output" ConfigName="Debug"/>
+      <Project Name="sense" ConfigName="Debug"/>
+      <Project Name="gaussian_class" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ProjectTemplate" ConfigName="Release"/>
+      <Project Name="ProjectTwo" ConfigName="Release"/>
+      <Project Name="Section8" ConfigName="Release"/>
+      <Project Name="file_input" ConfigName="Release"/>
+      <Project Name="file_output" ConfigName="Release"/>
+      <Project Name="sense" ConfigName="Release"/>
+      <Project Name="gaussian_class" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
