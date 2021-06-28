@@ -6,7 +6,8 @@
   <Project Name="file_input" Path="file/file.project" Active="No"/>
   <Project Name="file_output" Path="file_output/file_output.project" Active="No"/>
   <Project Name="sense" Path="sense/sense.project" Active="No"/>
-  <Project Name="gaussian_class" Path="gaussian_class/gaussian_class.project" Active="Yes"/>
+  <Project Name="gaussian_class" Path="gaussian_class/gaussian_class.project" Active="No"/>
+  <Project Name="matrix_class" Path="matrix_class/matrix_class.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="file_output" ConfigName="Debug"/>
       <Project Name="sense" ConfigName="Debug"/>
       <Project Name="gaussian_class" ConfigName="Debug"/>
+      <Project Name="matrix_class" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="file_output" ConfigName="Release"/>
       <Project Name="sense" ConfigName="Release"/>
       <Project Name="gaussian_class" ConfigName="Release"/>
+      <Project Name="matrix_class" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
